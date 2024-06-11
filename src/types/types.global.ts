@@ -37,7 +37,7 @@ export type TBlog = {
   tags: string[];
   likes: number;
   comments: number;
-  image: string;
+  image: any;
   type: string;
 };
 export type TBlogProps = {
@@ -56,7 +56,7 @@ export type TBook = {
   publisher?: string;
   isbn: string;
   description?: string;
-  coverImageUrl?: string;
+  coverImageUrl?: string | any;
 };
 
 export type TBookProps = {

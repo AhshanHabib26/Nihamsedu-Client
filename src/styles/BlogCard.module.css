@@ -1,0 +1,11 @@
+.BlogCardContainer {
+  overflow: hidden;
+}
+.BCImage {
+  transition: 0.5s ease-in-out;
+}
+.BlogCardContainer:hover .BCImage {
+  opacity: 1;
+  transform: scale(1.0868);
+  transition: 0.5s ease-in-out;
+}

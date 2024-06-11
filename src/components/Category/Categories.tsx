@@ -10,7 +10,7 @@ const Categories = () => {
       <Container>
         <div className=" mt-12">
           <h1 className="text-3xl hind-siliguri-bold text-center">
-            আলোচিত <span className="text-seconderyColor">বিষয়</span>
+            আলোচিত <span className="text-customSecondery">বিষয়</span>
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto max-w-6xl mt-8">
             {categories.map((category: TCategory) => (

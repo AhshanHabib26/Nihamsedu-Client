@@ -1,0 +1,5 @@
+.OurPackageCardContainer:hover{
+    box-shadow: 0 5px 25px #ebbbc4;
+    transform: scale(1.02865);
+    transition: 0.4s ease-in-out;
+}
