@@ -14,7 +14,7 @@ const Banner = () => {
   const banners = getAllBannerData();
 
   return (
-    <div className={`${Styles.mainContainer} py-12`}>
+    <div className={`${Styles.mainContainer} py-14`}>
       <Container>
         <SwiperComponent
           autoplay={{

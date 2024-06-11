@@ -21,7 +21,7 @@ export type TCategory = {
   description: string;
   bgColor: string;
   hoverColor: string;
-  image: string;
+  imageUrl: any;
 };
 
 export type TCategoryProps = {
@@ -74,7 +74,6 @@ export type TPackage = {
 export type TPackageProps = {
   service: TPackage;
 };
-
 
 export type TCourse = {
   id: string;
