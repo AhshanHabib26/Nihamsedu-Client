@@ -25,7 +25,7 @@ const TopNav = () => {
             <div className=" flex items-center gap-3">
               <div className=" flex items-center">
                 <FaRegClock color="#fff" size={18} />
-                <p className="hind-siliguri-light text-xl ml-1 text-white">
+                <p className="hind-siliguri-light text-lg ml-1 text-white">
                   {formattedBanglaDate}
                 </p>
               </div>
