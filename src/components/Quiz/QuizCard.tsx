@@ -55,7 +55,7 @@ const QuizCard: React.FC<TQuizProps> = ({ quiz }) => {
               {quiz.difficultyLevel}
             </p>
           </div>
-          <Link href={`/quiz/${quiz.id}`}>
+          <Link href={`/all-quizes/${quiz.id}`}>
             <FaPlay className=" text-customPrimary cursor-pointer" size={20} />
           </Link>
         </div>

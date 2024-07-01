@@ -6,15 +6,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import logoImg from "@/assets/icons/logo.png";
 import { Drawer } from "@mantine/core";
-import {
-  FaBars,
-  FaCartPlus,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaRegHeart,
-  FaRegUser,
-  FaYoutube,
-} from "react-icons/fa6";
+import { FaBars, FaCartPlus, FaRegHeart, FaRegUser } from "react-icons/fa6";
 
 const MainNav = () => {
   const [opened, setOpened] = useState(false);
@@ -41,28 +33,22 @@ const MainNav = () => {
             <div className=" hidden md:block lg:block">
               <div className="flex items-center gap-3">
                 <Link
-                  className="text-lg text-primaryColor hover:text-seconderyColor"
+                  className="text-lg text-customPrimary hover:text-customSecondery"
                   href="/"
                 >
                   হোম
                 </Link>
                 <Link
-                  className="text-lg text-primaryColor hover:text-seconderyColor"
-                  href="/"
+                  className="text-lg text-customPrimary hover:text-customSecondery"
+                  href="/all-books"
                 >
-                  একাডেমিক কর্ণার
+                  সকল বই
                 </Link>
                 <Link
-                  className="text-lg text-primaryColor hover:text-seconderyColor"
-                  href="/"
+                  className="text-lg text-customPrimary hover:text-customSecondery"
+                  href="/all-quizes"
                 >
-                  স্কিলস ডেভেলপমেন্ট
-                </Link>
-                <Link
-                  className="text-lg text-primaryColor hover:text-seconderyColor"
-                  href="/"
-                >
-                  ব্লগ
+                  সকল কুইজ
                 </Link>
                 <div className=" hidden lg:block">
                   <div className=" flex items-center gap-3">
@@ -121,21 +107,15 @@ const MainNav = () => {
                       </Link>
                       <Link
                         className="text-lg text-primaryColor hover:text-customSecondery block"
-                        href="/"
+                        href="/all-books"
                       >
-                        একাডেমিক কর্ণার
+                        সকল বই
                       </Link>
                       <Link
                         className="text-lg text-primaryColor hover:text-customSecondery block"
-                        href="/"
+                        href="/all-quizes"
                       >
-                        স্কিলস ডেভেলপমেন্ট
-                      </Link>
-                      <Link
-                        className="text-lg text-primaryColor hover:text-customSecondery block"
-                        href="/"
-                      >
-                        ব্লগ
+                        সকল কুইজ
                       </Link>
                       <hr className="my-3 border border-gray-100" />
                       <div className=" flex items-center">

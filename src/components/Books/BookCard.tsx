@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa6";
 import { BiCategory } from "react-icons/bi";
 import { IoMdPricetags } from "react-icons/io";
+import Link from "next/link";
 
 const BookCard = ({ book }: TBookProps) => {
   return (
@@ -72,7 +73,10 @@ const BookCard = ({ book }: TBookProps) => {
           )}
         </div>
         <div className="flex items-end justify-end gap-3">
-          <FaEye size={18} color="#001D25" />
+          <Link href={`all-books/${book.id}`}>
+            {" "}
+            <FaEye size={18} color="#001D25" />
+          </Link>
           <FaRegHeart size={18} color="#001D25" />
           <FaCartShopping size={18} color="#001D25" />
         </div>

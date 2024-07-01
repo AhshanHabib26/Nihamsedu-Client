@@ -21,7 +21,7 @@ const Books = () => {
         <div className="mt-5 flex items-center justify-center">
           <Link
             className=" px-4 py-2 bg-customSecondery text-lg text-white rounded-lg"
-            href="/blogs"
+            href="/all-books"
           >
             সকল বই দেখুন
           </Link>
