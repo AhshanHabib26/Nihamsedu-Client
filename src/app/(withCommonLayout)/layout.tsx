@@ -1,3 +1,4 @@
+import Footer from "@/shared/Footer/Footer";
 import RootNavbar from "@/shared/Navbar/Navbar";
 import React from "react";
 
@@ -10,6 +11,7 @@ const CommonLayout = ({
     <div>
       <RootNavbar />
       {children}
+      <Footer />
     </div>
   );
 };

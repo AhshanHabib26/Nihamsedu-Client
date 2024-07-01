@@ -6,7 +6,15 @@ import Link from "next/link";
 import React, { useState } from "react";
 import logoImg from "@/assets/icons/logo.png";
 import { Drawer } from "@mantine/core";
-import { FaBars } from "react-icons/fa6";
+import {
+  FaBars,
+  FaCartPlus,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaRegHeart,
+  FaRegUser,
+  FaYoutube,
+} from "react-icons/fa6";
 
 const MainNav = () => {
   const [opened, setOpened] = useState(false);
@@ -56,6 +64,24 @@ const MainNav = () => {
                 >
                   ব্লগ
                 </Link>
+                <div className=" hidden lg:block">
+                  <div className=" flex items-center gap-3">
+                    <hr className=" border-customPrimary border h-[16px]" />
+                    <div className=" flex items-center gap-2">
+                      <Link href="/">
+                        <FaRegHeart className="text-customPrimary" size={18} />
+                      </Link>
+                      <Link href="/">
+                        {" "}
+                        <FaCartPlus className="text-customPrimary" size={18} />
+                      </Link>
+                      <Link href="/">
+                        {" "}
+                        <FaRegUser className="text-customPrimary" size={18} />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div className=" block lg:hidden md:hidden">
@@ -112,12 +138,30 @@ const MainNav = () => {
                         ব্লগ
                       </Link>
                       <hr className="my-3 border border-gray-100" />
-                      <Link
-                        className="text-lg poppins-light cursor-pointer border p-2 text-center bg-[#F56565] text-white rounded-lg block"
-                        href="/register"
-                      >
-                        রেজিস্টার
-                      </Link>
+                      <div className=" flex items-center">
+                        <div className=" flex items-center gap-3">
+                          <Link href="/">
+                            <FaRegHeart
+                              className="text-customPrimary"
+                              size={20}
+                            />
+                          </Link>
+                          <Link href="/">
+                            {" "}
+                            <FaCartPlus
+                              className="text-customPrimary"
+                              size={20}
+                            />
+                          </Link>
+                          <Link href="/">
+                            {" "}
+                            <FaRegUser
+                              className="text-customPrimary"
+                              size={20}
+                            />
+                          </Link>
+                        </div>
+                      </div>
                     </div>
                   </Drawer.Body>
                 </Drawer.Content>

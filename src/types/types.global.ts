@@ -92,3 +92,5 @@ export type TCourse = {
 export type TCourseProps = {
   course: TCourse;
 };
+
+
