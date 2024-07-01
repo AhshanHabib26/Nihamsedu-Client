@@ -93,4 +93,15 @@ export type TCourseProps = {
   course: TCourse;
 };
 
+export type TQuiz = {
+  id: number;
+  title: string;
+  description: string;
+  numberOfQuestions: string;
+  duration: string;
+  difficultyLevel: string;
+};
 
+export type TQuizProps = {
+  quiz: TQuiz;
+};

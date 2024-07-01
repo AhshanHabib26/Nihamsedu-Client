@@ -7,7 +7,7 @@ import FooterConatctInfo from "./FooterConatctInfo";
 import FooterCopyright from "./FooterCopyright";
 const Footer = () => {
   return (
-    <div>
+    <div className=" mt-12">
       <div className={`${Styles.FooterContainer} p-5`}>
         <Container>
           <div className="text-white grid grid-cols-1 lg:grid-cols-4 gap-5">

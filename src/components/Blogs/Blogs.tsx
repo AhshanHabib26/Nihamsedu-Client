@@ -1,5 +1,4 @@
 import { getAllBlogData } from "@/data/blogData";
-import { TBlog } from "@/types/types.global";
 import Container from "@/utils/Container";
 import React from "react";
 import BlogCard from "./BlogCard";

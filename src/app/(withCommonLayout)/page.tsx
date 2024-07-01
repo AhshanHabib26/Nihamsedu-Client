@@ -1,8 +1,8 @@
 import Banner from "@/components/Banner/Banner";
-import Blogs from "@/components/Blogs/Blogs";
 import Books from "@/components/Books/Books";
 import Categories from "@/components/Category/Categories";
 import OurPackage from "@/components/OurPackage/OurPackage";
+import Quiz from "@/components/Quiz/Quiz";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <Categories />
       <Books />
       <OurPackage />
-      <Blogs/>
+      <Quiz />
     </main>
   );
 }
