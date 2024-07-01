@@ -1,0 +1,11 @@
+.PQuizCategoryCardNum{
+    color: brown;
+    width: 25px;
+    height: 25px;
+    background-color: #E5E7EB;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 16px;
+    padding-top: 1px;
+}
+

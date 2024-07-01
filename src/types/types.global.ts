@@ -105,3 +105,11 @@ export type TQuiz = {
 export type TQuizProps = {
   quiz: TQuiz;
 };
+
+export type TQuizCategory = {
+  id: number;
+  name: string;
+};
+export type TQuizCategoryProps = {
+  category: TQuizCategory;
+};
