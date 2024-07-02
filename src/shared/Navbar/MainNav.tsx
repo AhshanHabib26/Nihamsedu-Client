@@ -33,19 +33,19 @@ const MainNav = () => {
             <div className=" hidden md:block lg:block">
               <div className="flex items-center gap-3">
                 <Link
-                  className="text-lg text-customPrimary hover:text-customSecondery"
+                  className="text-lg hind-siliguri-regular text-customPrimary hover:text-customSecondery"
                   href="/"
                 >
                   হোম
                 </Link>
                 <Link
-                  className="text-lg text-customPrimary hover:text-customSecondery"
+                  className="text-lg hind-siliguri-regular text-customPrimary hover:text-customSecondery"
                   href="/all-books"
                 >
                   সকল বই
                 </Link>
                 <Link
-                  className="text-lg text-customPrimary hover:text-customSecondery"
+                  className="text-lg hind-siliguri-regular text-customPrimary hover:text-customSecondery"
                   href="/all-quizes"
                 >
                   সকল কুইজ

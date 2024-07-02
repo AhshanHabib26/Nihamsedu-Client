@@ -1,7 +1,8 @@
-"use client"
+"use client";
 
 import { MantineProvider } from "@mantine/core";
-import '@mantine/core/styles.css';
+import "@mantine/core/styles.css";
+import "sweetalert2/src/sweetalert2.scss";
 const CustomProvider = ({
   children,
 }: Readonly<{
