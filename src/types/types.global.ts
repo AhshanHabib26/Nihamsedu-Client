@@ -113,6 +113,13 @@ export type TQuizCategory = {
 export type TQuizCategoryProps = {
   category: TQuizCategory;
 };
+export type TBookCategory = {
+  categoryId: string;
+  categoryName: string;
+};
+export type TBookCategoryProps = {
+  category: TBookCategory;
+};
 
 export type TimerProps = {
   timer: { minutes: number; seconds: number };

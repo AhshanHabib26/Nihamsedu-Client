@@ -24,7 +24,7 @@ const MainNav = () => {
                   alt="Website Logo"
                 />
                 <h1 className="text-lg hind-siliguri-bold ml-1 text-primaryColor">
-                  নিহাম&apos;স একাডেমি
+                  Nihams Academy
                 </h1>
               </div>
             </Link>
@@ -36,19 +36,43 @@ const MainNav = () => {
                   className="text-lg hind-siliguri-regular text-customPrimary hover:text-customSecondery"
                   href="/"
                 >
-                  হোম
+                  Home
                 </Link>
                 <Link
                   className="text-lg hind-siliguri-regular text-customPrimary hover:text-customSecondery"
                   href="/all-books"
                 >
-                  সকল বই
+                  Books
                 </Link>
                 <Link
                   className="text-lg hind-siliguri-regular text-customPrimary hover:text-customSecondery"
                   href="/all-quizes"
                 >
-                  সকল কুইজ
+                  Quizes
+                </Link>
+                <Link
+                  className="text-lg hind-siliguri-regular text-customPrimary hover:text-customSecondery"
+                  href="/template"
+                >
+                  Template
+                </Link>
+                <Link
+                  className="text-lg hind-siliguri-regular text-customPrimary hover:text-customSecondery"
+                  href="/blog"
+                >
+                  Blog
+                </Link>
+                <Link
+                  className="text-lg hind-siliguri-regular text-customPrimary hover:text-customSecondery"
+                  href="/about"
+                >
+                  About
+                </Link>
+                <Link
+                  className="text-lg hind-siliguri-regular text-customPrimary hover:text-customSecondery"
+                  href="/contact"
+                >
+                  Contact
                 </Link>
                 <div className=" hidden lg:block">
                   <div className=" flex items-center gap-3">
@@ -89,7 +113,7 @@ const MainNav = () => {
                             alt="Website Logo"
                           />
                           <h1 className="text-lg hind-siliguri-bold ml-1 text-primaryColor">
-                            নিহাম&apos;স একাডেমি
+                           Nihams Academy
                           </h1>
                         </div>
                       </Drawer.Title>
@@ -103,19 +127,43 @@ const MainNav = () => {
                         className="text-lg text-primaryColor hover:text-customSecondery block"
                         href="/"
                       >
-                        হোম
+                        Home
                       </Link>
                       <Link
                         className="text-lg text-primaryColor hover:text-customSecondery block"
                         href="/all-books"
                       >
-                        সকল বই
+                        Books
                       </Link>
                       <Link
                         className="text-lg text-primaryColor hover:text-customSecondery block"
                         href="/all-quizes"
                       >
-                        সকল কুইজ
+                        Quizes
+                      </Link>
+                      <Link
+                        className="text-lg text-primaryColor hover:text-customSecondery block"
+                        href="/template"
+                      >
+                        Template
+                      </Link>
+                      <Link
+                        className="text-lg text-primaryColor hover:text-customSecondery block"
+                        href="/blog"
+                      >
+                        Blog
+                      </Link>
+                      <Link
+                        className="text-lg text-primaryColor hover:text-customSecondery block"
+                        href="/about"
+                      >
+                        About
+                      </Link>
+                      <Link
+                        className="text-lg text-primaryColor hover:text-customSecondery block"
+                        href="/contact"
+                      >
+                        Contact
                       </Link>
                       <hr className="my-3 border border-gray-100" />
                       <div className=" flex items-center">
